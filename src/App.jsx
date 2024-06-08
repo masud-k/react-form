@@ -1,6 +1,6 @@
 
 import './App.css'
-import Grandpa from './Component/Grandpa/grandpa'
+import Grandpa from './Component/Grandpa/Grandpa'
 // import ReusableForm from './Component/ReusableForm/ReusableForm'
 // import HookForm from './Component/HookForm/HookForm'
 // import RefForm from './Component/RefForn/RefForm'
@@ -15,16 +15,17 @@ function App() {
 
   // const handleProfileUpdateSubmit = data =>{
   //   console.log('update ptofile', data);
-// }
+  // }
 
-return (
-  <>
-    <h1>Form master</h1>
-    {/* <Stateful></Stateful> */}
-    {/* <SimpleForm></SimpleForm> */}
-    {/* <RefForm></RefForm> */}
-    {/* <HookForm></HookForm> */}
-    {/* <ReusableForm formTitle={'Sign Up'} handleSubmit={handleSignUpSubmit} >
+  return (
+    <>
+      <h1>Form master</h1>
+      <Grandpa></Grandpa>
+      {/* <Stateful></Stateful> */}
+      {/* <SimpleForm></SimpleForm> */}
+      {/* <RefForm></RefForm> */}
+      {/* <HookForm></HookForm> */}
+      {/* <ReusableForm formTitle={'Sign Up'} handleSubmit={handleSignUpSubmit} >
       <div>
         <h2>sign up </h2>
         <p>Sign up here for log in</p>
@@ -36,9 +37,8 @@ return (
         <p>Update your profile here</p>
       </div>
     </ReusableForm> */}
-    <Grandpa></Grandpa>
-  </>
-)
+    </>
+  )
 }
 
 export default App
