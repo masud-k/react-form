@@ -4,12 +4,14 @@ import Aunty from "../Aunty/Aunty";
 import './Grandpa.css'
 
 const Grandpa = () => {
+
+    const asset = 'diamod'
     return (
         <div className="grandpa ">
             <h2>Grandfather</h2>
             <section className="flex">
-                <Father></Father>
-                <Uncle></Uncle>
+                <Father asset={asset}></Father>
+                <Uncle asset={asset}></Uncle>
                 <Aunty></Aunty>
             </section>
         </div>
